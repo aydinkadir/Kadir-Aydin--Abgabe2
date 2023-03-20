@@ -1,0 +1,12 @@
+.uhr {
+    width: 400px; /* Breite der Box */
+    height: 400px; /* Höhe der Box */
+    margin: auto; /* Zentrierung */
+    border: 1px solid black; /* Box-Grenze */
+    padding: 20px; /* Abstand zwischen Box-Grenze und Inhalt */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
