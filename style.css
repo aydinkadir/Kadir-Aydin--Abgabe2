@@ -1,12 +1,45 @@
+body{
+
+  background-image: url(img/pexels-andrea-piacquadio-820735.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
 .uhr {
-    width: 400px; /* Breite der Box */
-    height: 400px; /* Höhe der Box */
-    margin: auto; /* Zentrierung */
-    border: 1px solid black; /* Box-Grenze */
-    padding: 20px; /* Abstand zwischen Box-Grenze und Inhalt */
+    width: 400px;
+    height: 400px; 
+    margin: auto; 
+    border: 6px solid black; 
+    padding: 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #333;
+    background-color: #9d9797;
+    font-family: 'Times New Roman', Times, serif;
+   
   }
   
+  button {
+    background-color: #9c9e9f; 
+    color: #fff; /* Weiß */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+  
+  }
+
+  button:hover {
+    background-color: #9c9e9f;
+  }
+
+  #currentDay, #currentTime {
+    font-size: 20px;
+    font-family: 'Times New Roman',serif;
+  }
